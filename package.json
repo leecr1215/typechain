@@ -1,5 +1,23 @@
 {
   "devDependencies": {
     "typescript": "^4.5.5"
-  }
+  },
+  "name": "typechain",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecr1215/typechain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leecr1215/typechain/issues"
+  },
+  "homepage": "https://github.com/leecr1215/typechain#readme"
 }
