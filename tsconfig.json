@@ -1,9 +1,12 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "ES2015",
-    "sourceMap": true
-  },
-  "include": ["index.ts"],
-  "exclude": ["node_modules"]
+    // JS로 컴파일하고 싶은 모든 디렉토리
+    "include": [
+        "src" // ts가 src의 모든 파일 확인
+    ],
+    "compilerOptions": {
+        // 컴파일 된 JS 파일이 생성될 디렉토리
+        "outDir": "build",
+        // 어떤 버전의 JS로 컴파일 할지
+        "target": "ES6"
+    }
 }
