@@ -11,6 +11,7 @@
         // TS에게 어떤 API를 사용하고 어떤 환경에서 코드를 실행할지 명시
         // target runtime 환경
         // 브라우저에서 동작할 거라면 "DOM"
-        "lib": ["ES6"]
+        "lib": ["ES6", "DOM"],
+        "strict": true
     }
 }
